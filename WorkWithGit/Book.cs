@@ -29,7 +29,7 @@ namespace WorkWithGit
                 return _author;
             }
         }
-
+        
         private string _name;
         private string _author;
     }
