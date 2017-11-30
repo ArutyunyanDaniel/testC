@@ -30,6 +30,11 @@ namespace WorkWithGit
             }
         }
         
+        public int Sum(int a,int b)
+        {
+            return a + b;
+        }
+
         private string _name;
         private string _author;
     }
