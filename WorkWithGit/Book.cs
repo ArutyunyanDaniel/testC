@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WorkWithGit
+﻿namespace WorkWithGit
 {
-    class Book
+    public class Book
     {
-        
+        public Book()
+        {
+
+        }
         public Book(string Name,string Author)
         {
             this._name = Name;
