@@ -13,6 +13,9 @@ namespace WorkWithGit
             Console.WriteLine("Hello Dany!");
             Book book = new Book("Deat Dusha", "Tolstoy");
             Console.WriteLine(book.Author + " " + book.Name);
+
+            int result = book.Sum(10, 10);
+            Console.Write("\n\n sum = " + result);
         }
     }
 }
