@@ -11,7 +11,8 @@ namespace WorkWithGit
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Dany!");
-            
+            Book book = new Book("Deat Dusha", "Tolstoy");
+            Console.WriteLine(book.Author + " " + book.Name);
         }
     }
 }
